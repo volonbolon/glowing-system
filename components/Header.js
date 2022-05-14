@@ -12,7 +12,7 @@ const Header = () => {
         <Link route="/">
           <a className="item">Campaigns</a>
         </Link>
-        <Link route="campaigns/new/">
+        <Link route="/campaigns/new">
           <a className="item">+</a>
         </Link>
       </Menu.Menu>
