@@ -52,7 +52,7 @@ class RequestNew extends Component {
     return (
       <Layout>
         <Link route={`/campaigns/${this.props.address}/requests`}>
-          <Button primary>Back</Button>
+          <a>Back</a>
         </Link>
         <h3>Create a Request</h3>
         <Form onSubmit={this.onSubmit} error={!!this.state.errorMessage}>
